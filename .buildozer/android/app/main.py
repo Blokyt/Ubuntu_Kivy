@@ -10,7 +10,6 @@ kivy.require('2.0.0')
 class GameView(BoxLayout):
     def __init__(self):
         super(GameView, self).__init__()
-        self.height = Window.size[1]
         self.target = randint(0,1000)
         self.answer = None
 
