@@ -932,7 +932,7 @@ configure:18501: checking for memfd_create
 configure:18501: /home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -o conftest -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -Wall -fexceptions -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/TestApp/armeabi-v7a/include/python3.1   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/TestApp/armeabi-v7a conftest.c  >&5
 ld: error: undefined symbol: memfd_create
 >>> referenced by conftest.c
->>>               /tmp/conftest-02d6db.o:(main)
+>>>               /tmp/conftest-688af3.o:(main)
 clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:18501: $? = 1
 configure: failed program was:
@@ -1003,7 +1003,7 @@ configure:18522: checking for mkostemp
 configure:18522: /home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -o conftest -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -Wall -fexceptions -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/TestApp/armeabi-v7a/include/python3.1   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/TestApp/armeabi-v7a conftest.c  >&5
 ld: error: undefined symbol: mkostemp
 >>> referenced by conftest.c
->>>               /tmp/conftest-c846e8.o:(main)
+>>>               /tmp/conftest-8b5dd3.o:(main)
 >>> did you mean: mkstemp
 >>> defined in: /home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/arm-linux-androideabi/21/libc.so
 clang-14: error: linker command failed with exit code 1 (use -v to see invocation)

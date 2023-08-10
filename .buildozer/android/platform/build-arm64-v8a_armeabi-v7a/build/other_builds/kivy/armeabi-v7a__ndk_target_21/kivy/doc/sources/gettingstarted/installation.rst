@@ -230,6 +230,11 @@ an older pre-release version from PyPi.
 Development install
 ~~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+    We suggest to select `master` or relevant branch/version of doc from top left,
+    ensuring correct version/branch of kivy git repository you are working with.
+
 If you want to edit Kivy before installing it, or if you want to try fixing some Kivy issue
 and submit a pull request with the fix, you will need to first download the Kivy source code.
 The following steps assumes git is pre-installed and available in the terminal.
