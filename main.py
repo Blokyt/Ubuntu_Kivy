@@ -1,10 +1,8 @@
 import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-from kivy.core.window import Window
 from random import randint
 
-Window.size = (800, 1200)
 kivy.require('2.0.0')
 
 
@@ -19,7 +17,6 @@ class GameView(BoxLayout):
             self.answer_input.text = '0'
 
         self.answer = int(self.answer_input.text)
-        Window.size = (400, 609)
 
         if self.answer == self.target:
             self.result_label.text = 'Congrat !'
