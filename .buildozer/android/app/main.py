@@ -4,7 +4,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
 from random import randint
 
-Window.size = (400, 609)
+Window.size = (800, 1200)
 kivy.require('2.0.0')
 
 
