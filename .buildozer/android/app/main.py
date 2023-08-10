@@ -1,7 +1,6 @@
 import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-from kivy.core.window import Window
 from random import randint
 
 kivy.require('2.0.0')
@@ -34,10 +33,10 @@ class GameView(BoxLayout):
             self.result_label.color = 'red'
 
 
-class TestApp(App):
+class KivyApp(App):
     def build(self):
         return GameView()
 
 
-TestApp = TestApp()
-TestApp.run()
+KivyApp = KivyApp()
+KivyApp.run()

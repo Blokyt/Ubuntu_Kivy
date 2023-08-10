@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = TestApp
+title = Find the number
 
 # (str) Package name
-package.name = TestApp
+package.name = KivyApp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
