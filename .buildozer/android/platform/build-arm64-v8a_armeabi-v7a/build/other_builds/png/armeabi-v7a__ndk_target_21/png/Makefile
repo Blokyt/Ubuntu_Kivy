@@ -573,7 +573,7 @@ CCASFLAGS = -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7
 CCDEPMODE = depmode=gcc3
 CFLAGS = -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC
 CPP = /home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -E
-CPPFLAGS = -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/TestApp/armeabi-v7a/include/python3.1
+CPPFLAGS = -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/KivyApp/armeabi-v7a/include/python3.1
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -600,7 +600,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld
-LDFLAGS =   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/TestApp/armeabi-v7a
+LDFLAGS =   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/KivyApp/armeabi-v7a
 LIBOBJS =  ${LIBOBJDIR}strtod$U.o
 LIBS = -lm -lz -lm 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool

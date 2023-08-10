@@ -78,7 +78,7 @@ T := -o$(space)
 #
 #   We use our own FreeType configuration file.
 #
-CPPFLAGS := -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/TestApp/armeabi-v7a/include/python3.1
+CPPFLAGS := -DANDROID -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/KivyApp/armeabi-v7a/include/python3.1
 CFLAGS   := -c -Wall -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -I/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -fvisibility=hidden  -DFT_CONFIG_CONFIG_H="<ftconfig.h>"
 
 # ANSIFLAGS: Put there the flags used to make your compiler ANSI-compliant.
@@ -99,7 +99,7 @@ endif
 
 # Linker flags.
 #
-LDFLAGS           :=   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/TestApp/armeabi-v7a -L/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -march=armv7-a -lz
+LDFLAGS           :=   -L/home/blokyt/Desktop/Language/Kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/KivyApp/armeabi-v7a -L/home/blokyt/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -march=armv7-a -lz
 LIB_CLOCK_GETTIME :=   # for ftbench
 
 

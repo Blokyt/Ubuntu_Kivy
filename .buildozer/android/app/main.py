@@ -5,7 +5,6 @@ from random import randint
 
 kivy.require('2.0.0')
 
-
 class GameView(BoxLayout):
     def __init__(self):
         super(GameView, self).__init__()
